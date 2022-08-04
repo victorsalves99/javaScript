@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(114, 114, 232);
+            color: white;
+            font: normal 18pt arial;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="titu">iniciando estudos com dom </h1>
+    <p>Aque vai o resultado</p>
+    <p>Aprendendo a usar o <strong id="dom">DOM</strong> com javaScript</p>
+    <div name="resp">
+        Click em mim
+    </div>
+    <script>
+        var dom = document.getElementById('dom')
+        var corpo = document.body
+       var n= window.document.getElementsByTagName('p')[1]
+        window.document.write('Está escrito assim: '+ n.innerText)
+        n.style.color='blue'
+        corpo.style.backgroundColor='black'
+        dom.style.color='white'
+        document.getElementsByName('resp')[0].innerText='Olá mundo'
+        document.querySelector('.titu').innerText='agora vai '
+
+    </script>
+</body>
+</html>
