@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>voce é estangeiro</title>
+</head>
+<body>
+    <h1>Sabendo se é Brasileiro</h1>
+    <label for="nome">nome </label>
+    <input type="text" name="nome" id="nome" placeholder="ex:victor" >
+    <label for="pais">pais</label>
+    <input type="text" name="pais" id="pais">
+    <input type="button" value="verificar" onclick="verificar()">
+    <div id="resp"></div>
+    <script>
+        var nome = document.querySelector('#nome')
+        var pais = document.querySelector('#pais')
+        
+        var resp = document.querySelector('#resp')
+        function verificar() {
+            if (pais.value.toLowerCase() === 'brasil') {
+                resp.innerHTML=`Ola ${nome.value} <br>`
+                resp.innerHTML+=`Voce é <strong> Brasileiro </strong> !`
+
+            }else{
+                resp.innerHTML=`Ola ${nome.value} <br>`
+                resp.innerHTML+=`Voce é <strong> Estrangeiro </strong> !`
+            }
+        }
+    </script>
+</body>
+</html>

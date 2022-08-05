@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>detran</title>
+</head>
+<body>
+    <h1>Sistemas de multas</h1>
+    <input type="number" name="txt1" id="txt1">
+    <input type="button" value="verificar" onclick="calcular()">
+    <div id="res"></div>
+    <script>
+        function calcular(){
+            var txt =document.querySelector('#txt1')
+            var resp = document.querySelector('#res')
+            var vel = Number(txt.value)
+            if (vel > 60){
+                resp.innerHTML=('<p>voce foi multado</p>')
+                res.innerHTML += ('c é maluco! c é biruleibe ')
+            }else{
+                resp.innerHTML=('dirija com cuidado ')
+            }
+            
+        }
+    </script>
+
+    
+</body>
+</html>
