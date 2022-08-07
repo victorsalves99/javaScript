@@ -16,6 +16,11 @@ section{
     border-radius: 10px;
     
 }
+img{
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+}
 div{
     padding: 15px;
 }
@@ -26,4 +31,12 @@ footer{
     color: white;
     text-align: center;
     font-style: italic;
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15pt;
+    color: white;
+
+
 }
