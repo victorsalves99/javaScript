@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(70, 135, 199);
+}
+section{
+    max-width: 500px;
+    background-color: white;
+    margin: auto;
+}
+header{
+    text-align: center;
+    font: bold 18pt arial;
+    color: white;
+}
+footer{
+    text-align: center;
+    font: bold 15pt arial;
+    color: white;
+    font-style: italic;
+}

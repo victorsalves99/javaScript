@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(70, 135, 199);
+}
+section{
+    max-width: 500px;
+    background-color: white;
+    margin: auto;
+    border-radius: 20px;
+}
+header{
+    text-align: center;
+    font: bold 18pt arial;
+    color: white;
+}
+footer{
+    text-align: center;
+    font: bold 15pt arial;
+    color: white;
+    font-style: italic;
+    margin-top: 30px;
+}
+select{
+    height: 200px;
+    width: 100px;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+div{
+    padding: 15px;
+
+}
+label{
+    font: bold 20px arial;
+    margin-right: 5px;
+    margin-left: 30px;
+
+}
+input{
+    border-radius: 10px;
+    padding: 5px;
+}
+button{
+    padding: 5px;
+    border-radius: 20px;
+    font: bold 15px arial;
+}

@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(70, 135, 199);
+}
+section{
+    max-width: 500px;
+    background-color: white;
+    margin: auto;
+    border-radius: 20px;
+}
+header{
+    text-align: center;
+    font: bold 18pt arial;
+    color: white;
+}
+footer{
+    text-align: center;
+    font: bold 15pt arial;
+    color: white;
+    font-style: italic;
+}
+input{
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    
+}
+label{
+    font: bolder 15px arial;
+}
+button{
+    font: bold 15px arial;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+div{
+    padding: 20px;
+
+}
+#res{
+    font: bold 15px arial;
+}
+footer{
+    margin: 10px;
+}
