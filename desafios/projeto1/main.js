@@ -1,4 +1,22 @@
 var data = new Date 
+<<<<<<< HEAD
+var ano = data.getFullYear()
+
+function verificar () {
+    var fano = document.getElementById('nas')
+    var finalano=Number(fano.value)
+    var res = document.getElementById('res')
+    var idade =ano - finalano
+    var img = document.createElement('img')
+    img.setAttribute('id','img')
+    if ()
+    img.setAttribute('src','img/adulta.png')
+    res.innerHTML = `sua idade é ${idade} <br>`
+    res.appendChild(img)
+    res.style.textAlign='center'
+
+}
+=======
 var anoAtual = data.getFullYear()
 function verificar() {
 
@@ -52,3 +70,4 @@ function verificar() {
         res.appendChild(foto)
         }
     }
+>>>>>>> e0c21f70ab76977ba6d723e120fafb8d673f685a
