@@ -24,3 +24,17 @@ footer{
     color: white;
     font-style: italic;
 }
+#resposta{
+   
+    margin-top: 30px;
+
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 18pt;
+    padding: 10px;
+}
+label{
+    font: bolder 15pt arial ;
+}
